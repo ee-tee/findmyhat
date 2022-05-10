@@ -1,0 +1,17 @@
+{
+  "name": "findmyhat",
+  "version": "1.0.0",
+  "description": "JavaScript Assessment",
+  "main": "index.js",
+  "scripts": {
+    "main": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eileen Tan",
+  "license": "ISC",
+  "dependencies": {
+    "clear-screen": "^1.0.0",
+    "print-message": "^3.0.1",
+    "prompt-sync": "^4.2.0"
+  }
+}
