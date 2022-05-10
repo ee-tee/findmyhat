@@ -4,9 +4,13 @@
 <p>Description:<br>
 This is my modded version of the Find Your Hat game project (JavaScript) with an interesting twist.<br>
 I hope you will enjoy playing this! ^_^</p>
+<br>
 
-![Alt text](/FindYourHeartGame.png "Game Title Screen")
-![Alt text](/FindYourHeartGamePlay.png "Game Playing")
+<span>
+  <img src="FindYourHeartGame.png" width="auto" height="250">
+  <img src="FindYourHeartGamePlay.png" width="auto" height="250">
+</span>
+
 ________________________________________________________________________________________________________
 <br>
 <p>Reflect on the following questions in your readme file:</p>
