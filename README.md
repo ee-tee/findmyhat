@@ -1,18 +1,24 @@
 # findmyhat
-<b>JavaScript Assessment: Find Your Heart Game</b>
+<b>JavaScript Assessment: Find Your <strike>Hat</strike> Heart Game</b>
 
-<p>Description:<br>
-This is my modded version of the Find Your Hat game project (JavaScript) with an interesting twist.<br>
-I hope you will enjoy playing this! ^_^</p>
-<br>
+<p>Description: <br>
+This is my modded version of the Find Your Hat game JavaScript project with a fun twist. <br>
+Watch the demo below or run the script on Node.js. I hope you will enjoy playing this! <b>☺</b> 
+</p><br>
 
+<p>Preview:</p>
 <span>
   <img src="FindYourHeartGame.png" width="auto" height="250">
   <img src="FindYourHeartGamePlay.png" width="auto" height="250">
 </span>
 
+<p>Watch Demo:</p>
+
+https://user-images.githubusercontent.com/102951529/169327723-81c25405-8555-4657-9987-43bb0d66b290.mp4
+
 ________________________________________________________________________________________________________
 <br>
+<p><b>Project Reflections</b></p>
 <p>Reflect on the following questions in your readme file:</p>
 <br>
 <p>●  What did you like about this project?</p>
