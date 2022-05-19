@@ -63,37 +63,37 @@ getWall, getHole and getHat Methods:
 
 class Field {
 
-	constructor(field = []) {
+  constructor(field = []) {
 
     this.field = field;
     this.locationX = 0;
     this.locationY = 0;
 
-		for (let a = 0; a < row; a++) {
-			this.field[a] = [];
-		}
-		
-		this.generateField();
+    for (let a = 0; a < row; a++) {
+      this.field[a] = [];
+    }
 
-	}
+    this.generateField();
+
+    }
 	
-	generateField() {
+    generateField() {
 
-    let holePercentage = 0.3;
-    let field = [];
+      let holePercentage = 0.3;
+      let field = [];
 
-		for (let y = 0; y < row; y++) {
-			for (let x = 0; x < col; x++) {
+      for (let y = 0; y < row; y++) {
+        for (let x = 0; x < col; x++) {
 
-        //Setting up the field
-				this.field[y][x] = fieldCharacter;
+          //Setting up the field
+          this.field[y][x] = fieldCharacter;
 
-        //Digging holes
-        const prob = Math.random();
-        this.field[y][x] = prob > holePercentage ? fieldCharacter : hole;
-            
-			}            
-		}
+          //Digging holes
+          const prob = Math.random();
+          this.field[y][x] = prob > holePercentage ? fieldCharacter : hole;
+              
+        }            
+    }
 
     //Sending player to the default starting point
     this.field[0][0] = pathCharacter;
@@ -109,7 +109,7 @@ class Field {
 
     return field;
 
-	}
+  }
 
 	runGame() {
         
