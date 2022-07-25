@@ -1,0 +1,84 @@
+/* ----- Main CSS ----- */
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+}
+
+body {
+  min-height: 100vh;
+}
+
+footer {
+  font-size: 0.75rem;
+}
+
+.title {
+  text-align: center; 
+  background-color: gainsboro;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  box-shadow: gray 5px 5px;
+}
+
+.instruction {
+  text-align: center;
+}
+
+.box {
+  background: white;
+  padding: 3.75rem 2.5rem;
+  overflow: hidden;
+  color: font-color;
+  border-radius: 0.25rem;
+  box-shadow: gray 5px 5px;
+}
+
+.touch {
+  border-top: solid 0.3125rem;
+  z-index: 2;
+}
+
+img.icon {
+  width: auto;
+  width: 3.75rem;
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* ----- Blue Button ----- */
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.info {
+  border-color: #2196F3;
+  color: dodgerblue;
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
